@@ -10,7 +10,6 @@ Letters are case sensitive, so "a" is considered a different type of stone from 
 ########
 class Solution {
     public int numJewelsInStones(String J, String S) {
-
     int count = 0;
     int Slength = S.length();
     int Jlength = J.length();
@@ -22,10 +21,8 @@ class Solution {
                 break;
             }            
         } 
-    }
-        
-    return count;
-        
+    }     
+    return count;        
     }
 }
 #######
