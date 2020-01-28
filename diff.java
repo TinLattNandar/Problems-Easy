@@ -3,6 +3,9 @@ Given an integer number n, return the difference between the product of its digi
 - Convert int to string
 - Use Character.digit to point out each digit
 
+Here Character.digit Function accepts two parameters - character and radix (in here, decimal radix is used)
+(we need to know radix of Binary, Decimal, Hexadecimal,etc)
+
 ######
 class Solution {
     public int subtractProductAndSum(int n) {
