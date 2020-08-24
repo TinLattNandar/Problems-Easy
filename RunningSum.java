@@ -8,9 +8,10 @@ Return the running sum of nums.
 
   Two options: 
   1. Without modifying original Array 
+  
   class Solution{
   
-     public int[] RunningSum(int[] nums){
+     public int[] runningSum(int[] nums){
         
         int[] output = new int[nums.length];
         output[0] = nums[0];
@@ -28,7 +29,7 @@ Return the running sum of nums.
   
   class Solution{
   
-     public int[] RunningSum(int[] nums){
+     public int[] runningSum(int[] nums){
         
         for(int i = 1; i < nums.length; i++){
             nums[i] += nums[i-1];
